@@ -1,17 +1,27 @@
-/* styles.css */
+/* Countdown container */
+#countdown-container {
+  font-size: 48px;
+  font-weight: bold;
+}
 
-body {
-    background-color: #f8f9fa;
-  }
-  
-  #countdown-container {
-    font-size: 2em;
-    font-weight: bold;
-  }
-  
-  #message {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: green;
-  }
-  
+/* Message */
+#message {
+  font-size: 45px;
+}
+
+/* Custom styling for the container */
+.container {
+  background-color: #82c239;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(11, 214, 72, 0.1);
+}
+
+/* Bootstrap classes override */
+.container.mt-5 {
+  margin-top: 100px !important;
+}
+
+.text-center {
+  margin: 0 auto;
+}
